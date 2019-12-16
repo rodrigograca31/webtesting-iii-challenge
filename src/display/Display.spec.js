@@ -14,7 +14,7 @@ describe("Display Component:", () => {
 		wrapper = rtl.render(<Display locked={true} closed={true} />);
 	});
 	it("displays if gate is open/closed and if it is locked/unlocked", () => {
-		wrapper.debug();
+		// wrapper.debug();
 		expect(wrapper.queryByText("Locked")).toBeInTheDocument();
 		expect(wrapper.queryByText("Closed")).toBeInTheDocument();
 		expect(
