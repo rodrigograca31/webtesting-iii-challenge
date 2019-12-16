@@ -72,3 +72,12 @@ describe("Gate", () => {
 		expect(Locked()).toBeInTheDocument();
 	});
 });
+
+describe("Dashboard", () => {
+	it("shows the controls and display", () => {
+		expect(Unlocked()).toBeInTheDocument();
+		expect(Open()).toBeInTheDocument();
+		expect(LockGate()).toBeInTheDocument();
+		expect(CloseGate()).toBeInTheDocument();
+	});
+});
