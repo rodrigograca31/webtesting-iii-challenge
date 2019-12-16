@@ -40,7 +40,7 @@ let UnlockGate = () => {
 describe("renders everything", () => {
 	// Test
 	it("renders without crashing", () => {
-		wrapper.debug();
+		// wrapper.debug();
 		expect(wrapper.container).toMatchSnapshot();
 	});
 	it("renders a 'Unlocked' text node", () => {
